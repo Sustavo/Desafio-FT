@@ -12,6 +12,7 @@ export const ProductImage = styled.img`
     width: 300px;
     height: 365px;
     border-radius: 4px;
+    cursor: pointer;
 `
 
 export const DataContainer = styled.div`
@@ -24,6 +25,7 @@ export const DataContainer = styled.div`
 export const ProductTitle = styled.span`
     font-size: 16px;
     font-weight: 400;
+    cursor: pointer;
 `
 
 export const ProductPrice = styled.span`

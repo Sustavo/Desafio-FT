@@ -10,7 +10,7 @@ const router = createBrowserRouter([
         element: <Initial />,
     },
     {
-        path: '/product',
+        path: '/product/:id',
         element: <Product />,
     },
     {
@@ -18,7 +18,7 @@ const router = createBrowserRouter([
         element: <SearchedProducts />,
     },
     {
-        path: '/shoopingCar',
+        path: '/shoppingCar',
         element: <ShoppingCar />,
     },
 ]);

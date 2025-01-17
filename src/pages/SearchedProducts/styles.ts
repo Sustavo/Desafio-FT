@@ -65,6 +65,6 @@ export const SliderTitle = styled.h2`
 export const SliderContainer = styled.div`
     display: flex;
     flex-direction: column;
-    width: 1300px;
+    width: 1250px;
     margin-bottom: 64px;
 `

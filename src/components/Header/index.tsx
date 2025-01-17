@@ -18,7 +18,7 @@ export default function Header() {
             <RightContainer>
                 <HeaderIcon src={User} />
                 <IconCounterContainer>
-                    <HeaderIcon src={ShoppingCart} />
+                    <HeaderIcon src={ShoppingCart} onClick={() => navigate(`/shoppingCar`)} />
                     <CounterText>0</CounterText>
                 </IconCounterContainer>
                 <IconCounterContainer>
